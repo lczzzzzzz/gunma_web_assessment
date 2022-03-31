@@ -9,7 +9,7 @@ https://air-web.duoke.net/goods-mall.html#/?token=x(上面接口拿到的token)
   - axios（可不用，参考文档：http://axios-js.com/zh-cn/docs/index.html ）
 
 #### 接口
-  - 商品和已购列表：[https://api.duoke.net/index.php/user/mall_goods?token=x]（token：身份令牌）
+  - 商品和已购列表：[https://api.duoke.net/index.php/user/mall_goods?key=x]（token：身份令牌）
     1. 商品列表：goods_list
         * 图片: mg_thumbnail
         * 名称: mg_name
