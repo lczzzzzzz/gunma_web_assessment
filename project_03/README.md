@@ -10,12 +10,6 @@ https://air-web.duoke.net/goods-mall.html#/?token=x(上面接口拿到的token)
   - axios（建议用，参考文档：http://axios-js.com/zh-cn/docs/index.html ）
   - vue-cli（建议用，参考文档：https://cli.vuejs.org/zh/guide/ ）
 
-#### 要求
-  - 功能完整
-  - 路由跳转（跳转动画可以不加）
-  - 点击详情页“立即购买”的弹窗内容部分不要求。
-
-
 #### 接口
   - 商品和已购列表：[https://api.duoke.net/index.php/user/mall_goods?token=x]（token：身份令牌）
     1. 商品列表：goods_list
@@ -33,4 +27,10 @@ https://air-web.duoke.net/goods-mall.html#/?token=x(上面接口拿到的token)
       * 价格：mg_price
       * 功能介绍: mg_feature（循环列表数据渲染）
       * 商品介绍图片: mg_imgs（循环列表数据渲染）
+
+
+#### 要求
+  - 功能完整
+  - 路由跳转（跳转动画可以不加）
+  - 点击详情页“立即购买”的弹窗内容部分不要求。
 

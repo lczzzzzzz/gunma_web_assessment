@@ -8,10 +8,6 @@ https://air-web.duoke.net/goods-mall.html#/?token=x(上面接口拿到的token)
   - vue（v2.x，参考文档：https://cn.vuejs.org/v2/guide/ ）
   - axios（可不用，参考文档：http://axios-js.com/zh-cn/docs/index.html ）
 
-#### 要求
-  - 功能完整性
-
-
 #### 接口
   - 商品和已购列表：[https://api.duoke.net/index.php/user/mall_goods?token=x]（token：身份令牌）
     1. 商品列表：goods_list
@@ -22,3 +18,7 @@ https://air-web.duoke.net/goods-mall.html#/?token=x(上面接口拿到的token)
         * 图片: oss_url + logo
         * 名称: name
         * 时间: utime(需要做转换)
+
+#### 要求
+  - 功能实现完整
+
